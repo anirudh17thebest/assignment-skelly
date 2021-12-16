@@ -1,0 +1,47 @@
+.navbarContainer {
+  height: 70px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.navLeft {
+  font-size: 18px;
+  width: 15%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navCenter {
+  width: 60%;
+  text-align: center;
+}
+
+.navPar {
+  font-size: 16px;
+  word-spacing: 40px;
+}
+
+.navRight {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+}
+
+.icons {
+  color: #383838;
+  cursor: pointer;
+}
+
+.flagship {
+  margin-right: 10px;
+  color: #383838;
+  cursor: pointer;
+}

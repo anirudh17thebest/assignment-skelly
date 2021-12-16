@@ -1,0 +1,324 @@
+.container {
+  height: 100vh;
+}
+
+.mainBody {
+  display: flex;
+  height: calc(100vh - 175px);
+  padding: 20px;
+}
+
+.left {
+  width: 40%;
+}
+
+.center {
+  width: 30%;
+}
+
+.right {
+  margin-left: 40px;
+  width: 27%;
+  height: 90%;
+}
+
+.shipping {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 19px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+.login {
+  height: 40px;
+  width: 105px;
+  padding: 10px;
+  background-color: #71bc78;
+  color: white;
+  border: none;
+  border-radius: 17px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.signup {
+  height: 40px;
+  width: 105px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: #c8c8c8;
+  background-color: white;
+  border-radius: 17px;
+  cursor: pointer;
+}
+
+.shippingInfo {
+  margin-left: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.shipping {
+  width: 100%;
+  display: grid;
+  padding: 10px;
+}
+
+input {
+  width: 230px;
+  height: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #c8c8c8;
+  padding-left: 15px;
+}
+
+.dropdown {
+  outline: none;
+}
+
+.top {
+  height: 30%;
+  margin-top: 89px;
+}
+
+.paymentP {
+  margin-left: 26px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.topPayment {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+}
+
+.capsule {
+  height: 40px;
+  width: 120px;
+  border: 1px solid #c8c8c8;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.bottom {
+  height: 40%;
+  margin-top: 20px;
+}
+
+.deliveryP {
+  margin-left: 26px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.bottomDelivery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.delivery {
+  height: 40px;
+  width: 180px;
+  border: 1px solid #c8c8c8;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.payIcons {
+  padding: 5px;
+  color: #c8c8c8;
+  cursor: pointer;
+}
+
+.last {
+  border: 1px solid #ffdb58;
+}
+
+.price {
+  font-size: 13px;
+}
+
+.delIcons {
+  padding: 2px;
+  color: #c8c8c8;
+}
+
+.first {
+  display: flex;
+  margin-left: 220px;
+  margin-top: 18px;
+  margin-bottom: 40px;
+}
+
+hr {
+  width: 60%;
+  margin-top: 14px;
+  height: 1%;
+}
+
+.iconWrapper {
+  height: 30px;
+  width: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.one {
+  border-color: #71bc78;
+  cursor: pointer;
+}
+
+.two {
+  border-color: white;
+  background-color: #71bc78;
+  cursor: pointer;
+}
+
+.cartleft {
+  display: flex;
+  align-items: center;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.cartImg {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.payBtn {
+  height: 50px;
+  width: 200px;
+  margin-left: 120px;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.third {
+  width: 60%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 90px;
+}
+
+.cartTitle {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.productDesc {
+  font-size: 15px;
+}
+
+.hash {
+  margin-top: 5px;
+  color: #c8c8c8;
+  font-size: 13px;
+}
+
+.price {
+  font-size: 15px;
+}
+
+.productOffer {
+  font-size: 13px;
+  color: #585858;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerbtn {
+  margin-right: 20px;
+}
+
+.back {
+  margin-left: 10px;
+}
+
+.btn {
+  height: 40px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.c {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.p {
+  border: none;
+  background-color: #71bc78;
+  color: white;
+  cursor: pointer;
+}
+
+select {
+  border: none;
+  margin-top: 10px;
+  color: gray;
+}
+
+.dropdown {
+  width: 250px;
+  height: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #c8c8c8;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
